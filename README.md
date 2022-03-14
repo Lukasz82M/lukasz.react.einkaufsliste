@@ -7,5 +7,5 @@ Die Aufgabe der Kursteilnehmer:innen ist es, den React-Code der Einkaufsliste je
 
 [Aufgaben Lektion 1](lektion1.md)  
 
-Das Endergebnis kann z.B. so aussehen
+Das Endergebnis kann z.B. so aussehen<br/>
 ![Screenshot](img/screenshot.png)
