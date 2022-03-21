@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Timer</title>
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Syntax Institut">
+    <meta name="copyright" content="Syntax Institut, 2022">
+    <meta name="description" content="Timer mit React.js">
+
+    <!-- ToDo: füge hier die Script-Tags für die JavaScript-Bibliotheken ein -->
+
+    <script src="https://unpkg.com/react@latest/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@latest/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@latest/babel.min.js"></script>
+
+</head>
+<body class="mdc-typography">
+
+<div id="root"></div>
+
+<!-- ToDo: füge hier die Babel Script-Tags hinzu, um den auskommentierten javascript-code anzuzeigen -->
+
+<script type="text/babel">
+
+    function tick() {
+        const element = (
+            <div>
+                // ToDo: Füge hier eine persönliche Begrüßung ein
+                <h1>Einen wunderschönen Guten Tag Tim 🔆!</h1>
+                <h2>Es ist {new Date().toLocaleTimeString()}.</h2>
+            </div>
+        );
+        // ToDo: Nutze ReactDOM.render(), um den Timer anzuzeigen
+        ReactDOM.render(
+            element,
+            document.getElementById('root')
+        );
+    }
+
+    setInterval(tick, 1000);
+
+</script>
+
+</body>
+</html>
