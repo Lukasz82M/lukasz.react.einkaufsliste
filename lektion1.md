@@ -36,7 +36,7 @@ Passe den JSX-Code im `GruppenTag` so and, dass alle Artikel mithilfe des `Artik
 ## Endergebnis
 
 Das Endergebnis sollte ungefähr so aussehen:
->![Lektion 1](lektion1.png)
+>![Lektion 1](img/lektion1.png)
 
 
 

@@ -38,7 +38,7 @@ mit deiner liebsten Begrüßung und deinem Namen begrüßt.
 ## Endergebnis
 
 Das Endergebnis sollte ungefähr so aussehen:
-> ![Lektion 1](lektion1a.png)
+> ![Lektion 1](img/lektion1a.png)
 
 
 
