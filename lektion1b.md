@@ -31,8 +31,8 @@ innerhalb des `<body>`-Tags des hinzu.
 <br>(Mit Hilfe der Funktion `querySelector()`).
 ---
 
-6.) Gehe nun zur Datei `Like_Button.js`.
-<br>Füge den fehlenden Ausdruck hinter `extends` der Like_Button.js Datei hinzu.
+6.) Gehe nun zur Datei [Like_Button.js](js/lektion1/Like_Button.js).  
+Füge den fehlenden Ausdruck hinter `extends` der Like_Button.js Datei hinzu.
 <br>**TIP**: Dieser Ausdruck wird benötigt, um in dieser Datei React Code schreiben zu können.
 <br> Entferen außerdem die Kommentar Zeichen oberhalb der Klassendeklaration und am Ende der Datei.
 Diese sehen so aus: `/*` und `*/`
@@ -51,8 +51,8 @@ Dieser beinhaltet wiederum als einziges Element einen button mit dem Eventlisten
 
 ## Endergebnis
 
-Das Endergebnis sollte ungefähr so aussehen:
-> ![Lektion 1](lektion1b.png)
+Das Endergebnis sollte ungefähr so aussehen:  
+> ![Lektion 1](img/lektion1b.png)  
 
 Durch Klicken auf den "Gefällt Mir"-Button, soll der Button verschwinden und eine andere Nachricht angezeigt werden.
 
