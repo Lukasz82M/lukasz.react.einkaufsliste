@@ -45,5 +45,5 @@ class Example  extends React.Component {
 ___
 
 ##Endergebnis
-Am Ende sollte das Ganze ungefähr so aussehen:
+Am Ende sollte das Ganze ungefähr so aussehen:  
 ![Lektion 2a](img/lektion2a.png)

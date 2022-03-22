@@ -33,5 +33,5 @@ den Code von Aufgabe 6 an. So ähnlich könnte eine Einkaufsliste aussehen!
 
 ___
 ##Endergebnis
-Am Ende sollte das Ganze ungefähr so aussehen:
+Am Ende sollte das Ganze ungefähr so aussehen:  
 ![Lektion 2b](img/lektion2b.png)
