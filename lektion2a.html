@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<title>Aufgabe 2a</title>
+
+	<meta charset="UTF-8">
+	<meta name="author" content="Syntax Institut">
+	<meta name="copyright" content="Syntax Institut, 2022">
+
+	<script src="lib/react.development.js"></script>
+	<script src="lib/react-dom.development.js"></script>
+	<script src="lib/babel.min.js"></script>
+</head>
+<body class="mdc-typography">
+
+<div id="root"></div>
+<script type="text/babel">
+  // 1. Schreibe eine funktionale Komponente
+  <!-- ToDo:Schreibe hierunter deine funktionale Komponente:-->
+
+  /*2. Schreibe die Funktion nun in eine Class Component um:
+  Bsp. class Example  extends React.Component {
+    render() {
+      return <h2>Hi, I am a Example !</h2>
+    }
+  */
+  <!-- ToDo:Schreibe hierunter deine Class Komponente:-->
+
+  /*3. Schreibe die folgende funktionale Komponente
+  in eine Class Komponente um.
+  function Programmer() {
+    return <h2>Hi, I am a Programmer!</h2>
+  }
+  */
+  <!-- ToDo:Schreibe hierunter deine Class Komponente:-->
+
+  /*4.
+    Kopiere die Class Komponente Student nun in die dafür vorgesehene Spalte ein und füge folgenden Code hinzu:
+     ReactDOM.render(Student, document.getElementById('root'))*/
+  <!-- ToDo: füge hier den obigen Code ein -->
+
+</script>
+
+
+<div id="root2"></div>
+<script type="text/babel">
+  /*5.Props:
+	z.b die Stadt aus der die Studenten kommen.*/
+  //5.b Props können wir auch der class Komponente hinzufügen
+  <!-- ToDo:Schreibe hierunter deinen Code -->
+
+  const Name = <Student name="Lisa"/>;
+  ReactDOM.render(Name, document.getElementById('root2'))
+
+</script>
+
+
+<div id="root3"></div>
+<script type="text/babel">
+  /*Wichtiger Unterschied hier: Während eine Function Component ihre Props als Funktionsargumente übergeben bekommt,
+	bekommt die render()-Methode einer Klassen-Komponente selbst keinerlei Argumente übergeben, sondern es kann einzig über
+	die Instanz-Eigenschaft this.props auf die Props zugegriffen werden!*/
+  <!-- ToDo:Schreibe hierunter deinen Code -->
+
+  ReactDOM.render(Name, document.getElementById('root3'))
+</script>
+
+
+<div id="Inst"></div>
+<script type="text/babel">
+    <!-- ToDo:Schreibe hierunter deine verschachtelte Komponente für die Komponente Student  Code -->
+
+
+    ReactDOM.render(<Institut/>, document.getElementById('Inst'))
+</script>
+</body>
+</html>

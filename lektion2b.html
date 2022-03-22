@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <title>Aufgabe 2a</title>
+
+  <meta charset="UTF-8">
+  <meta name="author" content="Syntax Institut">
+  <meta name="copyright" content="Syntax Institut, 2022">
+
+  <script src="lib/react.development.js"></script>
+  <script src="lib/react-dom.development.js"></script>
+  <script src="lib/babel.min.js"></script>
+
+</head>
+<body class="mdc-typography">
+
+<div id="root"></div>
+
+<script type="text/babel">
+
+  //ToDo: Schreibe hier deine Funktion Hallo!
+
+  const element = <Hallo />;
+  ReactDOM.render(
+    element,
+    document.getElementById('root')
+  );
+
+</script>
+--------------------------------------------------------
+<div id="root2"></div>
+
+<script type="text/babel">
+
+  //ToDo: Schreibe hier deine Klasse Tag!
+
+  const element2 = <Tag />;
+  ReactDOM.render(
+    element2,
+    document.getElementById('root2')
+  );
+
+</script>
+---------------------------------------------------------
+<div id="root3"></div>
+
+<script type="text/babel">
+
+  //ToDo: Schreibe hier deine Funktion mit props! Vergesse nicht, deinen Namen unten zu schreiben!
+
+  const element3 = <Hey name="//ToDo: Schreibe hier deinen Namen" />;
+  ReactDOM.render(
+    element3,
+    document.getElementById(`root3`)
+  );
+
+</script>
+---------------------------------------------------------
+<div id="root4"></div>
+
+<script type="text/babel">
+
+  function Gruesse(props) {
+    return <p>Hallo, {props.name}!</p>;
+  }
+
+  //ToDo: Schreibe hier deine Funktion "Wiederholt"!
+
+  const element4 = <Wiederholt />;
+  ReactDOM.render(
+    element4,
+    document.getElementById('root4')
+  );
+
+</script>
+----------------------------------------------------------
+<div id="root5"></div>
+
+<script type="text/babel">
+
+  //ToDo: Schreibe hier deine Klasse mit props! Vergesse nicht, deinen Namen unten zu schreiben!
+
+  const element5 = <Vorname name="//ToDO: Schreibe hier deinen Namen" />;
+  ReactDOM.render(
+    element5,
+    document.getElementById(`root5`)
+  );
+</script>
+----------------------------------------------------------
+<div id="root6"></div>
+
+<script type="text/babel">
+  function Item(props) {
+    return <div className="item">
+      Name: {props.gegenstand} <br />
+      Preis: {props.preis}
+    </div>;
+  }
+
+  function App() {
+    return <div>
+      <Item gegenstand="Brot" preis="1,99" />
+      <Item gegenstand="Käse" preis="2,5" />
+      <Item gegenstand="Wurst" preis="2" />
+      <Item gegenstand="Kuchen" preis="4,99" />
+    </div>
+  }
+
+  //ToDo: Schreibe hier deine ReactDOM render Funktion!
+
+</script>
+
+</body>
+</html>
