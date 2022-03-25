@@ -56,7 +56,7 @@ class Gruppe {
   artikelEntfernen(name) {
     let artikel = this.artikelFinden(name, true)
     if (artikel) {
-      let index = this.artikelListe.indexOf(name)
+      let index = this.artikelListe.indexOf(artikel)
       this.artikelListe.splice(index, 1)
       App.informieren(`[${this.name}] Artikel "${name}" entfernt`)
     }
