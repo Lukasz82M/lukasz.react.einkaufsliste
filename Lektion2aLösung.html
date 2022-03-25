@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<title>Aufgabe 2a</title>
+
+	<meta charset="UTF-8">
+	<meta name="author" content="Syntax Institut">
+	<meta name="copyright" content="Syntax Institut, 2022">
+
+	<script src="lib/react.development.js"></script>
+	<script src="lib/react-dom.development.js"></script>
+	<script src="lib/babel.min.js"></script>
+
+</head>
+<body class="mdc-typography">
+
+<div id="root"></div>
+<script type="text/babel">
+  function Student() {
+    return <h1>Hello, I am a student</h1>
+  }
+
+  ReactDOM.render(<Student/>, document.getElementById('root'))
+</script>
+<hr/>
+
+<script type="text/babel">
+  class Student extends React.Component {
+    render() {
+      return <h2>Hi, I am a Student!</h2>
+    }
+  }
+</script>
+<hr/>
+
+<script type="text/babel">
+  class Programmer extends React.Component {
+    render() {
+      return <h2>Hi, I am a Programmer!</h2>
+    }
+  }
+</script>
+<hr/>
+
+<div id="root1"></div>
+<script type="text/babel">
+  class Student extends React.Component {
+    render() {
+      return <h2>Hi, I am a Student!</h2>
+    }
+  }
+
+  ReactDOM.render(<Student/>, document.getElementById('root1'))
+</script>
+
+//Hiermit haben wir nun erreicht, das sich HTML und React miteinander verbinden :D Lass den Code nun im Browser laufen
+:D
+<hr/>
+
+<div id="root2"></div>
+<script type="text/babel">
+  function Student(props) {
+    return <h2>Hi, I am {props.name} </h2>
+  }
+
+  const Name = <Student name="Lisa"/>;
+  ReactDOM.render(Name, document.getElementById('root2'))
+</script>
+<hr/>
+
+<div id="root3"></div>
+<script type="text/babel">
+  class Student extends React.Component {
+    render() {
+      return <h2>Hi, I am {this.props.name}!</h2>
+    }
+  }
+
+  ReactDOM.render(Name, document.getElementById('root3'))
+</script>
+
+<hr/>
+<div id="Inst"></div>
+<script type="text/babel">
+  function Student() {
+    return <h1>Hello, I am a student</h1>
+  }
+
+  function Institut() {
+    return (
+      <div>
+        <h1>Who is a Student at Syntax Institut?</h1>
+        <Student/>
+      </div>
+    );
+  }
+
+  ReactDOM.render(<Institut/>, document.getElementById('Inst'))
+</script>
+</body>
+</html>
