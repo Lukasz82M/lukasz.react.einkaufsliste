@@ -13,14 +13,14 @@ Komponente anzusprechen in der die Methode steht, statt die in der sie tatsächl
 
 2.) In `ShoppingTag.js` erstelle eine Methode `setAktiveGruppe` mit einem Parameter `gruppenID`. Diese Methode soll die `aktiveGruppe` des `App` Objekts auf die mitgegebene `gruppenID` setzen. Gebe diese Methode als property an die gruppenTags weiter. Gebe der property einen angemessenen Namen(z.B. `aktiveGruppeHandler)
 
-4.) In `GruppenTag.js` programmiere das `onClick` Attribut des `<dt>` Tags so, dass die mitgegebene Funktion `setAktiveGruppe` mit der ID der Gruppe des GruppenTags als Parameter aufgerufen wird(Nutze hierfür eine Pfeilfunktion). Optional: Soll die angeklickte Gruppe auch ausgewählt werden wenn man in der "erledigt" Sektion auf die Gruppe klickt? Wenn nein, nutze den Fragezeichen Operator im `onClick` Attribut um diesen Fall auszuschließen.
+3.) In `GruppenTag.js` programmiere das `onClick` Attribut des `<dt>` Tags so, dass die mitgegebene Funktion `setAktiveGruppe` mit der ID der Gruppe des GruppenTags als Parameter aufgerufen wird(Nutze hierfür eine Pfeilfunktion). Optional: Soll die angeklickte Gruppe auch ausgewählt werden wenn man in der "erledigt" Sektion auf die Gruppe klickt? Wenn nein, nutze den Fragezeichen Operator im `onClick` Attribut um diesen Fall auszuschließen.
 
 Du solltest jetzt deinen code mithilfe der Javascript-Konsole(⌥+⌘+J im Browser) testen können. Schreibst du `App.aktiveGruppe` in die Konsole wird dir der entsprechende Wert ausgegeben.
 Dieser sollte sich ändern wenn du die verschiedenen Gruppen in deiner App anklickst.
 
-5.) In `ShoppingTag.js` erstelle einen Konstruktor und füge dem state einen parameter `aktiveGruppe` hinzu. Dieser sollte im Konstruktor noch `null` sein.  In der `setAktiveGruppe` Methode, nutze `setState` um auch im state die `aktiveGruppe` auf die gruppenID zu setzen.
+4.) In `ShoppingTag.js` erstelle einen Konstruktor und füge dem state einen parameter `aktiveGruppe` hinzu. Dieser sollte im Konstruktor noch `null` sein.  In der `setAktiveGruppe` Methode, nutze `setState` um auch im state die `aktiveGruppe` auf die gruppenID zu setzen.
 
-6.) In `ShoppingTag.js` gebe den GruppenTags eine weitere property `aktiv` mit. Diese sollte `true` sein wenn die entsprechende Gruppe die momentane aktive Gruppe ist. In `GruppenTag.js` gebe dem `<dt>` tag einen `className` Parameter. Dieser sollte `"aktiv"` sein, wenn die `erledigt` property `false` und die `aktiv` property `true` ist und `"inaktiv"` sonst. Diese Klassennamen sorgen mithilfe der css Dateien für die Einfärbung.
+5.) In `ShoppingTag.js` gebe den GruppenTags eine weitere property `aktiv` mit. Diese sollte `true` sein wenn die entsprechende Gruppe die momentane aktive Gruppe ist. In `GruppenTag.js` gebe dem `<dt>` tag einen `className` Parameter. Dieser sollte `"aktiv"` sein, wenn die `erledigt` property `false` und die `aktiv` property `true` ist und `"inaktiv"` sonst. Diese Klassennamen sorgen mithilfe der css Dateien für die Einfärbung.
 
 
 
@@ -29,4 +29,4 @@ Dieser sollte sich ändern wenn du die verschiedenen Gruppen in deiner App ankli
 ## Endergebnis
 
 Das Endergebnis sollte ungefähr so aussehen:
->![Lektion 3](lektion3.png)
+>![Lektion 3](img/lektion3.png)
