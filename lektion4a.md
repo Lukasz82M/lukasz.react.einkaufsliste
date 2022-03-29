@@ -24,8 +24,8 @@ increment Funktion zugreifen. Nenne den Button `Anzahl Klicks!`
 ___
 ##Endergebnis
 Am Ende sollte das Ganze ungefähr so aussehen:  
->![](../../Desktop/lektion4a-1.png)  
+>![](img/lektion4a-1.png)  
 Beim Clicken auf Alarm sollte das hier passieren:
-![](../../Desktop/lektion4a-2.png)  
+![](img/lektion4a-2.png)  
 Nach 4 Klicks sollte er Zähler ungefähr so aussehen:
-![](../../Desktop/lektion4a-3.png)  
+![](img/lektion4a-3.png)  
