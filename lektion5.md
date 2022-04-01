@@ -39,7 +39,7 @@ Deine App sollte sich bisher nicht verändert haben
 2. Gehe nun zu `ShoppingTag.js`
    1. Füge dem state von `ShoppingTag` eine Variable `showGruppenDialog` hinzu, die standardmäßig false ist 
    2. Im Footer, also nach allen relevanten Komponenten, nutze das `GruppenDialog` Tag mit folgenden properties:
-      - `visible:`, welche gleich dem state Variable showSetupDialog ist. 
+      - `visible:`, welche gleich der state Variable showGruppenDialog ist. 
       - `onDialogClose:` eine Pfeilfunktion die mithilfe der `setState` Funktion die `showGruppenDialog` Variable auf 
       `false` setzt. 
    3. Programmiere außerdem den Button, der den Dialog öffnen soll. Dies sollte mithilfe einer Pfeilfunktion geschehen. 
