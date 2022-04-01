@@ -74,6 +74,7 @@ class App {
         neueGruppe.artikelObjektHinzufuegen(artikel)
       })
     })
+    this.aktiveGruppe = jsonDaten.aktiveGruppe
   }
 
   static stummschalten() {
