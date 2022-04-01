@@ -55,7 +55,7 @@ Durch Klicken des Buttons passiert bisher nichts.
 >![Lektion 5 - Zwischenergbnis 1](img/lektion5_ZE1.png)
 ---
 
-3. Folge nun folgenden Schritten in `ShoppingTag.js`:
+3. Folge nun folgenden Schritten in `GruppenDialog.js`:
    1. Schreibe die Überschrift für das Dialog Fenster innerhalb der divs in ein `<h2>` tag mit `className` `mdc-dialog__title`. 
    2. Nun folgt ein `<div>` tag mit `className` `mdc-dialog__content` in welches der Hauptbestandteil des Dialogs kommt, also 
    alles was bei HTML im header und main Bereich wäre. 
