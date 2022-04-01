@@ -49,6 +49,9 @@ dd {
     display: flex;
     margin-left: 0;
 }
+dd input[type="search"] {
+    margin-left: 1.5rem;
+}
 label {
     width: 91%;
     cursor: pointer
